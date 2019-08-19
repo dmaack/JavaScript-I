@@ -16,17 +16,25 @@ myFunction();
 let anotherFunction = (param) => {
     return param;
 };
-anotherFunction("Example");
+console.log(anotherFunction("Example"));
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
 // add(1,2);
 
+let add = (param1, param2) => {
+    return param1 + param2;
+};
+console.log(add(1,2));
+
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
 // subtract(1,2);
-
+let subtract = (param1, param2) => {
+    return param1 - param2;
+};
+console.log(subtract(1,2));
 
 // Stretch
 
@@ -35,3 +43,8 @@ anotherFunction("Example");
 //   return num * 3;
 // });
 // console.log(triple);
+
+// const triple = exampleArray.map (num) => {
+//     return num *3;
+// };
+// console.log(triple());
